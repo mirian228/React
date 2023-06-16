@@ -1,17 +1,17 @@
-import reactjsicon from "../images/reactjs-icon.png";
+import reactLogo from "../images/reactjs-icon.png"
 function Header() {
-  return (
-    <header>
-      <nav className="navigation">
-        <img src={reactjsicon} alt="reactjsicon" className="reactLogo"></img>
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  );
+    return (
+    <div>
+        <nav className="navigation">
+            <div className="logoWithText">
+            <img src={reactLogo} className="reactLogo" alt="React Logo"></img>
+            <h1>React Facts</h1>
+            </div>
+            <h2>React Course - Project 1</h2>
+        </nav>
+    </div>
+     
+    )
 }
 
 export default Header;

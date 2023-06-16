@@ -1,13 +1,11 @@
-import Header from "./components/Header";
-import MainInfo from "./components/MainInfo";
-import Footer from "./components/Footer";
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
 
 function App() {
   return (
-    <div>
-      <Header />
-      <MainInfo />
-      <Footer />
+    <div className="container">
+        <Header />
+        <MainContent />
     </div>
   );
 }
