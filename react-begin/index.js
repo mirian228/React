@@ -37,7 +37,7 @@ function MainInfo() {
   );
 }
 
-function MyPage() {
+function App() {
   return (
     <div>
       <Header />
@@ -47,4 +47,4 @@ function MyPage() {
   );
 }
 
-ReactDOM.render(<MyPage />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));
