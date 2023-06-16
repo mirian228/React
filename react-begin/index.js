@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./reactjs-icon.png" width="40px"></img>
+      <nav className="navigation">
+        <img src="./reactjs-icon.png" className="reactLogo"></img>
+        <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -10,7 +15,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <small>@ 2023 Surmanidze development. All rights reserved.</small>
     </footer>
   );
@@ -18,7 +23,7 @@ function Footer() {
 
 function MainInfo() {
   return (
-    <div>
+    <div className="mainContent">
       <h1>Reasons To Learn React</h1>
       <p>JSX</p>
       <ul>

@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.reactLogo {
+    width: 40px;
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+.mainContent {
+    background-color: #282D35;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mainContent>h1 {
+    margin-top: 0px;
+}
+
+
+.footer {
+    background-color: cornsilk;
+}
